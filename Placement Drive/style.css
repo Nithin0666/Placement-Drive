@@ -1,0 +1,39 @@
+body{
+    background-image: url(background-2426328_1920.jpg);
+    background-size: cover;
+
+}
+table,td {
+    border: 3px double #333;
+    border-collapse: collapse;
+    margin: auto;
+    color:black;
+    font-size: 1.3em;
+    text-align: center;
+    
+}
+th{
+    background-color: #e8e8e8;
+}
+thead,tfoot {
+    color: #1b263b;
+}
+h1{
+    color:whitesmoke;
+
+}
+tr:hover {
+    background-color: lightgray;
+    }
+ .slno{
+        width: 50px;
+ }
+.ss{
+    width:300px;   
+}
+tr:nth-child(even) {
+	background-color:#bbbfca;
+}
+tr:nth-child(odd) {
+	background-color:#495464;
+}
